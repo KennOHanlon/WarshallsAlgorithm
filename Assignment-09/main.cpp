@@ -19,11 +19,16 @@ using namespace std;
 
 
 const string INPUT_FILE = "Graph1.data";
-const string outputFile = "AnalyzedDatasets.txt";
+const string OUTPUT_PROOF = "TimeComplexityProof.txt";
+const string outputFile = "TransitiveClosureOutput.txt";
 
 int main() {
 	
+	Warshall testingOutput(INPUT_FILE);
+	testingOutput.sortGraph(testingOutput.transitiveClosure);
 
+	testingOutput.printInformationToFile(outputFile);
+	testingOutput.returnCount(OUTPUT_PROOF);
 
 	//Quicksort dataset6(DATASET_6);
 	//dataset6.QuickSortAlgorithm(min, dataset6.getNumElements() - 1);

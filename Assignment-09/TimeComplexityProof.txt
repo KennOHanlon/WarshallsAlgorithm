@@ -1,0 +1,6 @@
+Number of Vertices (n): 	 20
+Time Complexity: 		 8000
+
+n^3 = 20^3 = 8000 therefore the algorithm follows n^3 complexity
+
+**Please note that this calculation count is determined by the sortGraph function within the program itself.
