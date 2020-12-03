@@ -26,7 +26,7 @@ public:
 	//--- Functions recording algorithm efficiency ---//
 	int getCount();
 	void incrementCount();
-	void printInformation();
+	void printInformationToFile(string fileName);
 
 
 	//--- Algorithms for partitioning the dataset and using quicksort ---//
